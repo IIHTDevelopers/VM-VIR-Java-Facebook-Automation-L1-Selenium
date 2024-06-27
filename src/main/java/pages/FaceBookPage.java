@@ -63,8 +63,8 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public String validateFacebookTitleOfLoginPage() throws Exception {
+		// write your logic here
 		return null;
-
 	}
 
 	/**@test2
@@ -75,6 +75,7 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean verifyPresenceOfALlFields() throws Exception {
+		// write your logic here
 		return null;
 	}
 
@@ -86,10 +87,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public String validateErrorMessageWithoutProvideAnyCredentials() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**
+	/**@test4
 	 * about this method enterEmailIdOrPhoneNumberInLoginPage() 
 	 * @param : Map<String, String> expectedData
 	 * @description : enter EmailIdOrPhoneNumber in the EmailIdOrPhoneNumber text field of the login page as per json expected data ,
@@ -97,10 +99,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public boolean enterEmailIdOrPhoneNumberInLoginPage(Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return false;
 	}
 
-	/**@test4
+	/**@test5
 	 * about this method validateErrorMessageWithoutProvidePassword() 
 	 * @param : null
 	 * @description : it is getting the error message and validate the error message ,
@@ -108,10 +111,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public String validateErrorMessageWithoutProvidePassword(Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**
+	/**@test6
 	 * about this method enterPassword() 
 	 * @param : Map<String, String> expectedData
 	 * @description : enter password in the password text field of the login page as per json expected data ,
@@ -119,10 +123,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public boolean enterPasswordInLoginPage(Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return false;
 	}
 
-	/**@test5
+	/**@test7
 	 * about this method validateErrorMessageWithoutProvideEmailOrPhoneNumber() 
 	 * @param : null
 	 * @description : it is getting the error message and validate the error message ,
@@ -130,10 +135,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public String validateErrorMessageWithoutProvideEmailOrPhoneNumber() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**@test6
+	/**@test8
 	 * about this method goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot() 
 	 * @param : null
 	 * @description : here go back to the login page and verify whether the NewAccountButton element is present or not 
@@ -141,10 +147,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**@test7
+	/**@test9
 	 * about this method validateNavigateToTheSignUpPage() 
 	 * @param : null
 	 * @description : click on the createnew account and validate the sign up page title ,
@@ -152,11 +159,12 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public String validateNavigateToTheSignUpPage() throws Exception {
+		// write your logic here
 		return null;
 
 	}
 
-	/**@test8
+	/**@test10
 	 * about this method verifyPresenceOfAllFieldsPresentInTheSignUpPage() 
 	 * @param : null
 	 * @description : verify all fields are present in the signup page or not ,
@@ -164,10 +172,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean verifyPresenceOfAllFieldsPresentInTheSignUpPage() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**@test9
+	/**@test11
 	 * about this method enterDataInFirstNameFieldSignupPage() 
 	 * @param : Map<String, String>
 	 * @description : Enter data in the first name text field of the Signup page,
@@ -175,10 +184,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public  String enterDataInFirstNameFieldSignupPage( Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**@test10
+	/**@test12
 	 * about this method enterDataInSignUpPage() 
 	 * @param : Map<String, String>
 	 * @description : enter data in the  SignUpPage page,
@@ -187,10 +197,11 @@ public class FaceBookPage extends StartupPage {
 	 *
 	 */
 	public  boolean enterDataInSignUpPage( Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return false;
 	}
 
-	/**@test11
+	/**@test13
 	 * about this method selectDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot() 
 	 * @param : null
 	 * @description : it is select any date from date dropdown and verify Date Dropdown is present in current page or not 
@@ -198,10 +209,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**@test12
+	/**@test14
 	 * about this method selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot() 
 	 * @param : null
 	 * @description : it is select any month from month dropdown and verify month Dropdown is present in current page or not 
@@ -209,10 +221,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**@test13
+	/**@test15
 	 * about this method selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot() 
 	 * @param : null
 	 * @description : it is select any Year from Year dropdown and verify Year Dropdown is present in current page or not 
@@ -220,11 +233,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	
-	/**@test14
+	/**@test16
 	 * about this method verifyAllpresentOfFieldAfterCloseTheSignupPage() 
 	 * @param : null
 	 * @description : close the sign up page and verify all fields is present in current page or not 
@@ -232,10 +245,11 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean verifyAllpresentOfFieldAfterCloseTheSignupPage() throws Exception {
+		// write your logic here
 		return null;
 	}
 
-	/**@test15
+	/**@test17
 	 * about this method enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot() 
 	 * @param : Map<String, String> expectedData (getting the data from the expected Json file
 	 * @description : enter the username and password in the corresponding Text filed and verify login button is present or not
@@ -243,8 +257,8 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot(Map<String, String> expectedData) throws Exception {
+		// write your logic here
 		return null;
 	}
-
 
 }
