@@ -1,7 +1,6 @@
 package pages;
 
 import java.util.Map;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -37,23 +36,14 @@ public class FaceBookPage extends StartupPage {
 	By selectFemaleRadioButton = By.xpath("");
 	By selectMaleRadioButton = By.xpath("");
 	By closeSignupPageImage = By.xpath("");
-
-	
 	By errorMessageWithoutCredential1 = By.xpath(""); 
-	
 	By withoutPasswordErrorMessage1 = By.xpath("");
-
-
-	
-
-
 
 	public FaceBookPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this); // Initialize Page Factory
 		// TODO Auto-generated constructor stub
 	}
-
 
 	/** @test1
 	 * about this method validateFacebookTitleOfLoginPage() 
@@ -93,8 +83,8 @@ public class FaceBookPage extends StartupPage {
 
 	/**@test4
 	 * about this method enterEmailIdOrPhoneNumberInLoginPage() 
-	 * @param : Map<String, String> expectedData
-	 * @description : enter EmailIdOrPhoneNumber in the EmailIdOrPhoneNumber text field of the login page as per json expected data ,
+	 * @param : get the data from Map<String, String> expectedData using field "emailAddsPhoneNumber"
+	 * @description : enter EmailIdOrPhoneNumber in the EmailIdOrPhoneNumber text field of the login page as per expected data ,
 	 * @return : null
 	 * @author : Yaksha
 	 */
@@ -110,15 +100,15 @@ public class FaceBookPage extends StartupPage {
 	 * @return : errorMessage as string type
 	 * @author : Yaksha
 	 */
-	public String validateErrorMessageWithoutProvidePassword(Map<String, String> expectedData) throws Exception {
+	public String validateErrorMessageWithoutProvidePassword() throws Exception {
 		// write your logic here
 		return null;
 	}
 
 	/**@test6
 	 * about this method enterPassword() 
-	 * @param : Map<String, String> expectedData
-	 * @description : enter password in the password text field of the login page as per json expected data ,
+	 * @param : get the data from Map<String, String> expectedData using field "password"
+	 * @description : enter password in the password text field of the login page as per expected data ,
 	 * @return : null
 	 * @author : Yaksha
 	 */
@@ -161,7 +151,6 @@ public class FaceBookPage extends StartupPage {
 	public String validateNavigateToTheSignUpPage() throws Exception {
 		// write your logic here
 		return null;
-
 	}
 
 	/**@test10
@@ -178,7 +167,7 @@ public class FaceBookPage extends StartupPage {
 
 	/**@test11
 	 * about this method enterDataInFirstNameFieldSignupPage() 
-	 * @param : Map<String, String>
+	 * @param : get the data from Map<String, String> expectedData using field "FirstName"
 	 * @description : Enter data in the first name text field of the Signup page,
 	 * @return : String
 	 * @author : Yaksha
@@ -190,7 +179,7 @@ public class FaceBookPage extends StartupPage {
 
 	/**@test12
 	 * about this method enterDataInSignUpPage() 
-	 * @param : Map<String, String>
+	 * @param : get the data from Map<String, String> expectedData using fields "surname", "emailOrMobileNumber" and "newPassword"
 	 * @description : enter data in the  SignUpPage page,
 	 * @return : null
 	 * @author : Yaksha
@@ -251,7 +240,7 @@ public class FaceBookPage extends StartupPage {
 
 	/**@test17
 	 * about this method enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot() 
-	 * @param : Map<String, String> expectedData (getting the data from the expected Json file
+	 * @param : get the data from Map<String, String> expectedData using fields "Username" and "Password"
 	 * @description : enter the username and password in the corresponding Text filed and verify login button is present or not
 	 * @return : true
 	 * @author : Yaksha
@@ -260,5 +249,4 @@ public class FaceBookPage extends StartupPage {
 		// write your logic here
 		return null;
 	}
-
 }
