@@ -6,38 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class FaceBookPage extends StartupPage {
-	//please write all the locators for facebook page only 
-
-	By loginButton = By.xpath(""); 
-	By emailAddsPhoneNumberTextbox = By.xpath(""); 
-	By passwordTextbox = By.xpath(""); 
-	By profileIconImage = By.xpath(""); 
-	By logoutButton = By.xpath(""); 
-	By forgettenPasswordLink = By.xpath(""); 
-	By createNewAccountLink = By.xpath(""); 
-	By emailTextField = By.id(""); 
-	By errorMessageWithoutCredential = By.xpath(""); 
-	By errorMessageWithoutCredentialForgetPassword = By.xpath(""); 
-	By withoutPasswordErrorMessage = By.xpath("");
-
-	By createNewAccount = By.xpath(""); 
-	By signUpButton = By.xpath(""); 
-	By nameFieldErorMessage = By.xpath(""); 
-	By firstNameTextField = By.xpath(""); 
-	By surNameTextField = By.xpath(""); 
-	By mobileNumberAndPassword = By.xpath(""); 
-	By newPassword = By.xpath(""); 
-	By selectDateFromDateDropdown = By.xpath(""); 
-	By selectBirthdayMonth = By.xpath("");
-	By selectBirthDayYear = By.xpath("");
-	By customRadioButton = By.xpath("");
-	By selectYourPronounDropdown = By.xpath("");
-	By genderOptionalTextBox = By.xpath("");
-	By selectFemaleRadioButton = By.xpath("");
-	By selectMaleRadioButton = By.xpath("");
-	By closeSignupPageImage = By.xpath("");
-	By errorMessageWithoutCredential1 = By.xpath(""); 
-	By withoutPasswordErrorMessage1 = By.xpath("");
+	
+	// please write all the locators here
 
 	public FaceBookPage(WebDriver driver) {
 		super(driver);
